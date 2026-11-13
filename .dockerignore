@@ -1,0 +1,7 @@
+work
+results
+data
+tests
+.git
+**/__pycache__
+tools/node_modules

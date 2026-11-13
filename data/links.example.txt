@@ -1,0 +1,12 @@
+# One link per line. Sections set defaults for the lines below them.
+[human]
+https://github.com/OWNER/old-app                      snapshot_before=2020-12-31
+https://github.com/OWNER/mono/tree/main/packages/core notes="package core only"
+
+[llm cohort=llm-2025]
+https://github.com/OWNER/claude-app
+git@github.com:OWNER/cursor-app.git
+
+# same project twice -> two versions (paired comparison)
+https://github.com/OWNER/evolving/commit/a1b2c3d  cohort=llm-2023 version=early
+https://github.com/OWNER/evolving                 cohort=llm-2025 version=late

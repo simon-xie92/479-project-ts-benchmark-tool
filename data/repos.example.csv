@@ -1,0 +1,7 @@
+repo,group,cohort,version,commit,snapshot_before,subdir,url,notes
+OWNER/old-human-app,human,human,,,2020-12-31,,,"pre-LLM snapshot; leave cohort empty to default to group"
+OWNER/chatgpt-era-app,llm,llm-2023,,,,,,"README says built with ChatGPT in 2023"
+OWNER/claude-code-app,llm,llm-2025,,,,,,"CLAUDE.md + Co-Authored-By trailers"
+OWNER/evolving-llm-app,llm,llm-2023,early,a1b2c3d,,,,"SAME project, first month (commit SHA or tag)"
+OWNER/evolving-llm-app,llm,llm-2025,late,,,,,"SAME project, latest commit (blank = default branch tip)"
+OWNER/monorepo,human,human,,,,packages/core,,"subdir = folder containing the package to measure"
